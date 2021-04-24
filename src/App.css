@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align:center;
+  
+  background-color:silver;
 }
 
 .App-logo {
@@ -12,7 +14,24 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/*  */
+.id4 button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: darkred;
+    box-shadow: 0px 1px 5px;
+    width: 150px;
+} 
+.cart {
+  position: absolute;
+  right: 1%;
+  width: 80px;
+  /* top: 1%; */
+}
 
+img1 {
+  box-shadow: 2px 2px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
