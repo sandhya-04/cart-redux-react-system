@@ -28,7 +28,25 @@
   width: 80px;
   /* top: 1%; */
 }
-
+.add-to-cart img{
+  width: 80px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.cart-count{
+  
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
 img1 {
   box-shadow: 2px 2px;
 }

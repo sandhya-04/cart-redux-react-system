@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Home(){
+function Home(props){
     return(
         <div>
-            <div className="cart" >
-                <img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG38.png" height="80px" width="80px" align="center"/>
-            </div>
+           
             <h1>Big Bazaar!!</h1>
             <div className="id1">
                 <div className="id2">
@@ -21,7 +19,9 @@ function Home(){
                     </span>
                 </div>
                 <div className="id4">
-                    <button>Add To Bag</button>
+                    <button onClick={()=>{props.addToCartHandler({price:1000,name:'Bridal dresses'})}}
+                    
+                    >Add To Bag</button>
                 </div>
             </div>
 
