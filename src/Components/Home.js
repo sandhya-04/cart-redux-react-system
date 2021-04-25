@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Home(props){
+    console.warn("props",props)
     return(
         <div>
            
@@ -22,6 +23,7 @@ function Home(props){
                     <button onClick={()=>{props.addToCartHandler({price:1000,name:'Bridal dresses'})}}
                     
                     >Add To Bag</button>
+                    <button onClick={()=>{ props.RemoveToCartHandler()}}>Remove to cart</button>
                 </div>
             </div>
 

@@ -1,4 +1,5 @@
 import {ADD_TO_CART} from '../constants';
+import {REMOVE_TO_CART} from '../constants';
 const Istate = {
     cardData:[]
 }
@@ -10,7 +11,12 @@ switch(action.type){
             ...state,
             {cardData: action.data}
         ]
-        
+     case  REMOVE_TO_CART:
+         state.pop();
+         return [
+             ...state,
+           
+         ]  
         default:
             return state
      }
