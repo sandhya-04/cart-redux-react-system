@@ -1,7 +1,11 @@
 .App {
   text-align:center;
-  
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:silver;
+}
+h1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .App-logo {
@@ -21,7 +25,51 @@
     background-color: darkred;
     box-shadow: 0px 1px 5px;
     width: 150px;
+    margin: 6px;
 } 
+.id1{
+  margin-left: 35px ;
+  height:400px;
+  width: 350px;
+  float:left ;
+  background-color:lightsteelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.id7{
+  height:400px;
+  width: 350px;
+  float:left ;
+  margin-left: 15px;
+  background-color:lightsteelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.id8{
+  height:400px;
+  width: 350px;
+  float:left ;
+  margin-left: 15px;
+  background-color:lightsteelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.id5{
+  height:400px;
+  width: 350px;
+  float:left ;
+  margin-left: 15px;
+  background-color:lightsteelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.id6{
+  height:400px;
+  width: 350px;
+  float:left ;
+  margin-left: 15px;
+  background-color:lightsteelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
 .cart {
   position: absolute;
   right: 1%;
@@ -48,8 +96,42 @@
   color: #fff;
 }
 
-img1 {
-  box-shadow: 2px 2px;
+.img1 {
+  
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  padding: 10px;
+  margin-right: auto;
+}
+.img2{
+  padding: 10px;;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.img4{
+  padding: 10px;;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img3{
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img5{
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .App-header {
   background-color: #282c34;
