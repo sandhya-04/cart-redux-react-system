@@ -7,6 +7,7 @@ function Home(props){
            
             <h1>Big Bazaar!!</h1>
             <hr color="black"></hr>
+            <marquee><h3><i>There is beautiful collection of bride with reasonable price.So why are you waiting and book your awesome bridal collection!!!</i></h3></marquee>
             <div className="id1">
                 <div className="id2">
                     <img className="img1" src="https://images.pexels.com/photos/291759/pexels-photo-291759.jpeg?cs=srgb&dl=pexels-photomix-company-291759.jpg&fm=jpg" height="300px" width="300px" align="center"/>
@@ -75,6 +76,26 @@ function Home(props){
                     <br></br>
                     <span>
                     <i><u>Price: 53,990/-</u></i>
+                    </span>
+                </div>
+                <div className="id4">
+                    <button onClick={()=>{props.addToCartHandler({price:1000,name:'Bridal dresses'})}}
+                    
+                    >Add To Bag</button>
+                    <button onClick={()=>{ props.RemoveToCartHandler()}}>Remove to cart</button>
+                </div>
+                
+                
+                </div>
+                <div className="id8">
+                    <img className="img5" src="https://4.imimg.com/data4/KF/GL/ANDROID-41690576/product-500x500.jpeg" height="300px" width="300px" align="center"/>
+                    <div className="id3">
+                    <span>
+                        <i><u>Satin Christian Wedding Gown</u></i>
+                    </span>
+                    <br></br>
+                    <span>
+                    <i><u>Price: 43,990/-</u></i>
                     </span>
                 </div>
                 <div className="id4">
